@@ -298,6 +298,14 @@ content{
 	text-decoration: none;
 }
 
+.fadeIn{
+	opacity: 0;
+	font-size: 60px;
+	color: #FF5454;
+	padding-top: 65px;
+	transition: .5s;
+}
+
 
 
 

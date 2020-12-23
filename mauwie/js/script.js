@@ -194,32 +194,11 @@ jQuery(document).ready(function($) {
   masthead.appendChild(canvas);
 })();
 
-const cracker = document.getElementById("crackerWrapper");
-const leftCracker = document.getElementById("leftCracker");
-const rightCracker = document.getElementById("rightCracker");
-const message = document.getElementById("message");
-
-let counter = 0
-
-cracker.addEventListener('click', () => {
-	if(counter < 13){
-		counter++
-	} else{
-		leftCracker.style.animation = "left 1s forwards"
-		rightCracker.style.animation = "right 1s forwards"
-		message.style.animation = "title 1s forwards"
-		cracker.style.transform = "scaleX(1)"
-	}
-})
-
-function Loop(){      
-	window.requestAnimationFrame(Loop);
-	if(counter > 0 && counter < 13){
-		cracker.style.transform = `scaleX(${1 + (counter / 100)})`
-		counter -= 0.05
-	}
-}
-Loop()
+$('.fadeIn').click(function(event) {
+	$( this ).css({
+		opacity: 1
+	});
+});
 
 });
 
