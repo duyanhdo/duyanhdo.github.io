@@ -1,4 +1,7 @@
 jQuery(document).ready(function($) {
+	//wow js
+	new WOW().init();	
+
 	(function () {
 
 		var COUNT = 5000;

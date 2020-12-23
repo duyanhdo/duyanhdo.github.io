@@ -286,6 +286,18 @@ content{
 	font-size: 20px;
 }
 
+.link {
+	position: absolute;
+	top: 50%;
+	font-size: 40px;
+	margin: auto;
+	border-radius: 30px;
+	padding: 20px 50px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+}
+
 
 
 
