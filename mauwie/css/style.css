@@ -312,7 +312,10 @@ content{
   transform: translateY(150px);
   transition: 1s;
 }
-
+ 
+audio{
+  z-index: 1000;
+}
 
 
 
