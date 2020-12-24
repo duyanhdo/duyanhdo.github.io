@@ -295,17 +295,23 @@ content{
 	padding: 20px 50px;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	text-decoration: none;
+  text-align: center;
 }
 
-.fadeIn{
-	opacity: 0;
+.link a{
+  text-decoration: none;
+  color: white;
+}
+
+.fadeInText{
 	font-size: 60px;
 	color: #FF5454;
-	padding-top: 65px;
-	transition: .5s;
 }
 
+.gifImg{
+  transform: translateY(150px);
+  transition: 1s;
+}
 
 
 

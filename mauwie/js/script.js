@@ -194,9 +194,9 @@ jQuery(document).ready(function($) {
   masthead.appendChild(canvas);
 })();
 
-$('.fadeIn').click(function(event) {
-	$( this ).css({
-		opacity: 1
+$('.fadeInText').click(function(event) {
+	$('.gifImg').css({
+		"opacity" : 0,
 	});
 });
 
