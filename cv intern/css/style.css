@@ -4,12 +4,8 @@
 	box-sizing: border-box;
 }
 body{
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("../images/bgCv.png");
-	font-family: 'Montserrat', sans-serif;
+	background-color: #ffeaea;
+	font-family: Sf Pro Display;
 }
 .container{
 	margin-top: 100px;
@@ -24,12 +20,14 @@ body{
 .name{
 	font-size: 55px;
 	color: #272727;
-	font-family: 'Bebas Neue', cursive;
 	letter-spacing: 5px;
 }
 .title{
 	font-weight: 200;
 	color: #272727;
+	letter-spacing: 3px;
+	font-weight: 500;
+	padding-bottom: 30px;
 }
 .progress{
 	border-radius: 0;
@@ -40,7 +38,7 @@ body{
 	font-weight: bold;
 }
 .color{
-	color: #795548;
+	color: #ffeb3b;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -50,15 +48,14 @@ body{
 .skill{
 	margin-bottom: 30px;
 }
-.colorRightAbove{
-	background-color: #8EDDDD;
+.colorBlock{
+	background-color: #ea6868;
+	opacity: 0.7;
+	color: white;
 }
 a{
-	color: #795548;
-}
-.colorRightBelow{
-	background-color: #FBD8E8;
+	color: white;
 }
 .border-bottom{
-	border-bottom: 1px solid black !important;
+	border-bottom: 1px solid white;
 }
