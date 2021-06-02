@@ -59,3 +59,17 @@ a{
 .border-bottom{
 	border-bottom: 1px solid white;
 }
+.btn-primary{
+	outline: none;
+	color: #ffeb3b;
+	background-color: transparent;
+	border : none;
+	padding: 0;
+}
+.btn-primary:hover{
+	background-color: transparent;
+	color: #ffeb3b;
+}
+.disappear{
+	display: none;
+}
